@@ -1,8 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { MessageCircle } from "lucide-react";
 
-// Replace with your own WhatsApp number in international format (no + or spaces)
-const WHATSAPP_NUMBER = "923000000000";
+const WHATSAPP_NUMBER = "923484587680";
 const MESSAGE = encodeURIComponent("Hi! I'd like to order from Your Bottle Garden 🌿");
 
 const WhatsAppOrder = () => {
