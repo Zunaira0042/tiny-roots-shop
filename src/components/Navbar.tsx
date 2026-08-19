@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between py-4 px-4">
         <a href="/" className="flex items-center gap-2">
           <Leaf className="h-6 w-6 text-primary" />
-          <span className="font-display text-xl font-bold text-foreground">Petit Jardin</span>
+          <span className="font-display text-xl font-bold text-foreground">Your Bottle Garden</span>
         </a>
 
         <div className="hidden md:flex items-center gap-8">

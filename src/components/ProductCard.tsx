@@ -32,7 +32,7 @@ const ProductCard = ({ name, price, image, category, badge }: ProductCardProps) 
       <div className="p-4">
         <span className="text-muted-foreground text-xs uppercase tracking-wider">{category}</span>
         <h3 className="font-display font-semibold text-foreground mt-1">{name}</h3>
-        <p className="text-primary font-bold mt-1">${price.toFixed(2)}</p>
+        <p className="text-primary font-bold mt-1">PKR {price.toLocaleString()}</p>
       </div>
     </div>
   );
