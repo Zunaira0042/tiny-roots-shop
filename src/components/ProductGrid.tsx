@@ -1,41 +1,51 @@
 import ProductCard from "./ProductCard";
 
+import snake from "@/assets/beach-snake.png";
+import jade from "@/assets/beach-jade.png";
+import pencil from "@/assets/beach-pencil.png";
+import aloe from "@/assets/beach-aloe.png";
+import mother from "@/assets/beach-mother.png";
+import pack4simple from "@/assets/beach-pack4simple.png";
+import painted1 from "@/assets/beach-painted1.png";
+import painted3 from "@/assets/beach-painted3.png";
+import painted4 from "@/assets/beach-painted4.png";
+
 const simpleBottles = [
   {
     name: "Snake Plant Bottle",
     price: 250,
-    image: "/tiny-roots-shop/images/beach-snake.png",
+    image: snake,
     category: "Simple Bottle",
     badge: "Bestseller",
   },
   {
     name: "Jade Plant Bottle",
     price: 250,
-    image: "/tiny-roots-shop/images/beach-jade.png",
+    image: jade,
     category: "Simple Bottle",
   },
   {
     name: "Pencil Cactus Bottle",
     price: 250,
-    image: "/tiny-roots-shop/images/beach-pencil.png",
+    image: pencil,
     category: "Simple Bottle",
   },
   {
     name: "Aloe Vera Bottle",
     price: 250,
-    image: "/tiny-roots-shop/images/beach-aloe.png",
+    image: aloe,
     category: "Simple Bottle",
   },
   {
     name: "Mother of Thousands Bottle",
     price: 250,
-    image: "/tiny-roots-shop/images/beach-mother.png",
+    image: mother,
     category: "Simple Bottle",
   },
   {
     name: "Simple Bottles — Pack of 4",
     price: 1000,
-    image: "/tiny-roots-shop/images/beach-pack4simple.png",
+    image: pack4simple,
     category: "Value Pack",
     badge: "Pack of 4",
   },
@@ -45,20 +55,20 @@ const paintedBottles = [
   {
     name: "Hand Painted Bottle",
     price: 350,
-    image: "/tiny-roots-shop/images/beach-painted1.png",
+    image: painted1,
     category: "Painted Bottle",
   },
   {
     name: "Hand Painted Bottles — Pack of 3",
     price: 1000,
-    image: "/tiny-roots-shop/images/beach-painted3.png",
+    image: painted3,
     category: "Value Pack",
     badge: "Pack of 3",
   },
   {
     name: "Hand Painted Bottles — Pack of 4",
     price: 1200,
-    image: "/tiny-roots-shop/images/beach-painted4.png",
+    image: painted4,
     category: "Value Pack",
     badge: "Pack of 4",
   },
@@ -80,8 +90,7 @@ const ProductGrid = () => {
 
           <p className="text-muted-foreground mt-3 max-w-md mx-auto">
             Snake plant, jade plant, pencil cactus, aloe vera and mother of
-            thousands — rooted in clear recycled bottles. Pack of 4 for PKR
-            1000.
+            thousands — rooted in clear recycled bottles. Pack of 4 for PKR 1000.
           </p>
         </div>
 
