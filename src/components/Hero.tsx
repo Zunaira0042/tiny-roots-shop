@@ -25,7 +25,13 @@ const Hero = () => {
             <a href="#shop">See Bottles</a>
           </Button>
           <Button variant="heroOutline" size="lg" asChild>
-            <a href="#order">Order on WhatsApp</a>
+            <a
+              href="https://wa.me/923484587680?text=Hi!%20I'd%20like%20to%20order%20a%20bottle%20garden%20%F0%9F%8C%BF"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Order on WhatsApp
+            </a>
           </Button>
         </div>
       </div>
