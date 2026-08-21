@@ -1,4 +1,4 @@
-import heroAsset from "@/assets/bottle-1.png.asset.json";
+import heroAsset from "@/assets/bottle-1.png";
 import { Button } from "@/components/ui/button";
 
 const Hero = () => {
@@ -6,7 +6,7 @@ const Hero = () => {
     <section className="relative overflow-hidden">
       <div className="absolute inset-0">
         <img
-          src={heroAsset.url}
+          src={heroAsset}
           alt="Bottle garden wall with snake plants, jade and money plants growing in glass bottles"
           className="w-full h-full object-cover"
         />
