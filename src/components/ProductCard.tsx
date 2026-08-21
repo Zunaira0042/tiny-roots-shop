@@ -1,14 +1,14 @@
 import ProductCard from "./ProductCard";
 
-import snake from "@/assets/beach-snake.png";
-import jade from "@/assets/beach-jade.png";
-import pencil from "@/assets/beach-pencil.png";
-import aloe from "@/assets/beach-aloe.png";
-import mother from "@/assets/beach-mother.png";
-import pack4simple from "@/assets/beach-pack4simple.png";
-import painted1 from "@/assets/beach-painted1.png";
-import painted3 from "@/assets/beach-painted3.png";
-import painted4 from "@/assets/beach-painted4.png";
+import snake from "@/assets/beach-snake.jpg";
+import jade from "@/assets/beach-jade.jpg";
+import pencil from "@/assets/beach-pencil.jpg";
+import aloe from "@/assets/beach-aloe.jpg";
+import mother from "@/assets/beach-mother.jpg";
+import pack4simple from "@/assets/beach-pack4simple.jpg";
+import painted1 from "@/assets/beach-painted1.jpg";
+import painted3 from "@/assets/beach-painted3.jpg";
+import painted4 from "@/assets/beach-painted4.jpg";
 
 const simpleBottles = [
   {
