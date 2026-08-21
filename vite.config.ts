@@ -4,7 +4,9 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "/tiny-roots-shop/",
+  // GitHub Pages needs the repo sub-path; Lovable preview/publish serve from root.
+  base: process.env.GITHUB_PAGES === "true" ? "/tiny-roots-shop/" : "/",
+
 
   server: {
     host: "::",
