@@ -43,7 +43,7 @@ const simpleBottles = [
     category: "Simple Bottle",
   },
   {
-    name: "Simple Bottles — Pack of 4",
+    name: "Simple Bottles â€” Pack of 4",
     price: 1000,
     image: pack4simple,
     category: "Value Pack",
@@ -59,14 +59,14 @@ const paintedBottles = [
     category: "Painted Bottle",
   },
   {
-    name: "Hand Painted Bottles — Pack of 3",
+    name: "Hand Painted Bottles â€” Pack of 3",
     price: 1000,
     image: painted3,
     category: "Value Pack",
     badge: "Pack of 3",
   },
   {
-    name: "Hand Painted Bottles — Pack of 4",
+    name: "Hand Painted Bottles â€” Pack of 4",
     price: 1200,
     image: painted4,
     category: "Value Pack",
@@ -85,12 +85,12 @@ const ProductGrid = () => {
           </span>
 
           <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mt-2">
-            Simple Bottles — PKR 250 each
+            Simple Bottles â€” PKR 250 each
           </h2>
 
           <p className="text-muted-foreground mt-3 max-w-md mx-auto">
             Snake plant, jade plant, pencil cactus, aloe vera and mother of
-            thousands — rooted in clear recycled bottles. Pack of 4 for PKR 1000.
+            thousands â€” rooted in clear recycled bottles. Pack of 4 for PKR 1000.
           </p>
         </div>
 
